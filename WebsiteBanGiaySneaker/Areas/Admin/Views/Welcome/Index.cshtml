@@ -1,0 +1,18 @@
+﻿@model IEnumerable<WebsiteBanGiaySneaker.Models.DONHANG>
+
+@{
+    ViewBag.Title = "Welcome";
+    Layout = "~/Areas/Admin/Views/Shared/AdminLayout.cshtml";
+}
+<br />
+<h2>Welcome</h2>
+<hr />
+<!-- /.row -->
+Chào mừng bạn đến với Sneaker
+<script>
+    $(document).ready(function () {
+        $('#dataTables-example').DataTable({
+            responsive: true
+        });
+    });
+</script>
